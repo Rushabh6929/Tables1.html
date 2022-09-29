@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> <center>
+    <h1><u><b>Personal Details</b></u> </h1>
+    <form method="post">
+        <label for="fname"><b>Name</b></label>
+        <input type="text" name="fname" id="fname" required><br><br>
+
+        <b>Passcode:</b>
+        <input type="Password" name="passcoce" placeholder="Passcode" required><br><br>
+
+       <b>E-mail:</b> 
+        <input type="email" name="mail" required><br><br>
+    
+        <b>Gender:</b>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender" required> Female
+        <input type="radio" name="gender" required> Other
+        <br><br>
+        <b>Contact:</b>
+        <input type="tel" name="phone" maxlength="2" placeholder="Country Code"required>
+        <input type="tel" name="phone" maxlength="10"placeholder="Mobile Number" required><br>
+
+        <h1 align="center"><u> Education Qualifiation </h1></u><br>
+        
+        <b>Degree:</b> 
+        <select groups="Degree" > 
+            <option value="mba" required> MBA </option>
+            <option value="b tech" required> B TECH </option>
+            <option value="law" required> LAW </otion>
+            <option value="mcs" required> MCS </option>
+            <option value="msc" required> MSC </option>
+        
+        </select><br><br>
+        
+            <b>Engineerging:</b>
+            <select groups="Branch"> 
+                <option value="E&TC" required> E&TC </option>
+                <option value="Computer" required> Computer </option>
+                <option value="IT" required> IT </otion>
+                <option value="Civil" required> Civil </option>
+                <option value="Mechanical" required> Mechanical </option> 
+                </select><br>
+
+               
+       <b> Hobbies:</b>
+        <input type="checkbox" name="Trekking"> Trekking
+        <input type="checkbox" name="Outdoor Games"> Outdoor Games
+        <input type="checkbox" name="Reading"> Reading
+        <input type="checkbox" name="Swimming"> Swimming 
+        <input type="checkbox" name="others"> Others 
+   
+        <br>
+
+        <h1 align ="center"> <u> Address </u> </h1>
+        <textarea name="message"placeholder="Your Address" rows="5" cols="50"></textarea><br>
+        Select Files:
+        <input type="file" name="file" multiple required> <br>
+        <input type="submit">
+        <input type="reset"><br><br>
+       
+           
+
+            </datalist><br>
+        </center>
+</body>
+
+</html>
